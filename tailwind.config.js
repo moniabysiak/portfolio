@@ -9,7 +9,7 @@ module.exports = {
         'page': '#020916',
         'pink': '#FF61EF',
         'gray': '#9CA3AF',
-        'hover-pink': '#FF4CA5'
+        'hover-pink': '#fa42e7'
       },
       width: {
         'width1': '760px'
