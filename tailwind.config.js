@@ -10,6 +10,9 @@ module.exports = {
         'pink': '#FF61EF',
         'gray': '#9CA3AF'
       },
+      width: {
+        'width1': '760px'
+      },
     },
   },
   plugins: [],
