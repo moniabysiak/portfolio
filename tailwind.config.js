@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
+    letterSpacing: {
+      'tight': '-.025em'
+    },
     extend: {
       colors: {
         'page': '#020916',
