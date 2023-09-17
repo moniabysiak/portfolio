@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
+    listStyleType: {
+      'dash': 'dash',
+    },
     letterSpacing: {
       'tight': '-.025em'
     },
