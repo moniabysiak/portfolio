@@ -8,9 +8,9 @@
     <link href="./index.css" rel="stylesheet">
 </head>
 
-<body class="bg-page pl-16 pr-16">
+<body class="bg-page p-4 md:pl-16 md:pr-16">
     <header>
-        <div class="flex justify-between items-stretch">
+        <div class="flex justify-between items-stretch py-6">
             <div class="flex justify-start items-center p-2">
                 <img src="./sun.png" alt="sun" />
                 <div class="ml-4 flex flex-col justify-start items-start">
@@ -20,10 +20,10 @@
             </div>
             <nav>
                 <div class="flex flex-row justify-around items-center gap-10 p-4">
-                    <a class="text-white" href="#"> About</a>
-                    <a class="text-white" href="#"> Skills</a>
-                    <a class="text-white" href="#"> Projects</a>
-                    <a class="text-white" href="#"> <img class="pr-1.5 inline-block" src="./resume.png" alt="resume" />
+                    <a class="text-white font-bold" href="#"> About</a>
+                    <a class="text-white font-bold" href="#"> Skills</a>
+                    <a class="text-white font-bold" href="#"> Projects</a>
+                    <a class="text-white font-bold" href="#"> <img class="pr-1.5 inline-block" src="./resume.png" alt="resume" />
                         Resume</a>
                     <button class="bg-pink h-12 w-32 rounded-lg"> <a class="navigation__link text-page font-bold"
                             href="mailto: monika.serwin88@gmail.com"> Contact </a> </button>
@@ -32,9 +32,9 @@
         </div>
     </header>
     <section>
-        <div class="flex flex-auto justify-between items-center gap-36 mb-32 mt-32">
-            <div class="w-width1 h-auto">
-                <h1 class="text-white font-bold text-5xl mb-4">My name is Monika and I’m an aspiring <span
+        <div class="flex flex-col-reverse md:flex-row md:justify-between md:items-center md:gap-12 lg:flex-row lg:justify-between lg:items-center lg:gap-36 md:mb-32 md:mt-32">
+            <div class=" md:w-width1 h-auto">
+                <h1 class="text-white font-bold text-2xl md:leading-snug md:text-3xl lg:leading-snug lg:text-5xl mb-4">My name is Monika and I’m an aspiring <span
                         class="text-pink">Frontend developer.</span></h1>
                 <p class="text-2xl text-gray pt-4 mb-16">You might be interested in checking the list of my <span
                         class="text-white">skills.</span>
@@ -42,17 +42,17 @@
                     challenges so if you have one -
                     <span class="text-white">contact me</span> 😊
                 </p>
-                <div class="flex flex-row justify-start items-center gap-4">
+                <div class="flex flex-col md:flex-row md:justify-start md:items-center gap-4">
                     <button
                         class="bg-pink h-16 w-56 rounded-3xl text-xl font-bold flex flex-row justify-center items-center gap-4 transition-color duration-500 hover:bg-hover-pink"><img
                             src="./message-chat-circle 1.png"> Get in touch</button>
                     <button
-                        class="bg-none h-16 w-56 rounded-3xl text-pink text-xl font-bold border-solid border-2 transition-color duration-500 hover:border-pink border-zinc-500 flex flex-row justify-center items-center gap-4"><img
+                        class="bg-none h-16 w-64 rounded-3xl text-pink text-xl font-bold border-solid border-2 transition-color duration-500 hover:border-pink border-zinc-500 flex flex-row justify-center items-center gap-4"><img
                             src="./image-user 1.png"> Get to know me</button>
                 </div>
             </div>
-            <div class="flex justify-center items-center">
-                <img class="w-full h-auto mb-5" src="./Frame 2.png" alt="me">
+            <div class="flex flex-col justify-center items-center">
+                <img class="max-w-xs h-auto mb-5 md:max-w-none md:mr-4 md:w-[26rem]" src="./Frame 2.png" alt="me">
             </div>
         </div>
     </section>
