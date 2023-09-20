@@ -19,6 +19,9 @@ module.exports = {
       },
       width: {
         'width1': '760px'
+      },
+      fontFamily: {
+        "dmsans": " 'DM sans', sans-serif"
       }
     },
   },
