@@ -49,12 +49,12 @@
                     <span class="text-white">contact me</span> 😊
                 </p>
                 <div class="flex flex-col md:flex-row md:justify-start md:items-center gap-4">
-                    <button
+                    <a href="#contact"
                         class="bg-pink h-16 w-56 rounded-3xl text-xl font-bold flex flex-row justify-center items-center gap-4 transition-color duration-500 hover:bg-hover-pink"><img
-                            src="./message-chat-circle 1.png"><a href="#contact"> Get in touch </a></button>
-                    <button
-                        class="bg-none h-16 w-64 rounded-3xl text-pink text-xl font-bold border-solid border-2 transition-color duration-500 hover:border-pink border-zinc-500 flex flex-row justify-center items-center gap-4"><img
-                            src="./image-user 1.png"><a href="#skills"> Get to know me</a></button>
+                            src="./message-chat-circle 1.png"> Get in touch </a>
+                    <a href="#skills"
+                        class="bg-none h-16 w-64 rounded-3xl text-pink text-xl font-bold border-solid border-2 transition-color duration-500 hover:border-pink border-zinc-500 flex flex-row justify-center items-center gap-4">
+                        <img src="./image-user 1.png"> Get to know me</a>
                 </div>
             </div>
             <div class="flex flex-col justify-center items-center">
@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-    <section class="mb-16 mt-16 md:mb-32 md:mt-32">
+    <section class="mb-32 md:mb-64 mx-auto">
         <h2 class="text-gray text-xl font-bold mb-4" id="skills"> MY SKILLS</h2>
         <p
             class="text-white pb-20 font-medium text-2xl md:text-[40px] tracking-tight w-full md:w-2/3  h-auto leading-snug">
@@ -114,18 +114,20 @@
             </article>
         </div>
     </section>
-    <section class="mb-16 mt-16 md:mb-64 md:mt-32 mx-auto">
+    <section class="mb-32 md:mb-64 mx-auto">
         <h2 class="text-gray text-xl font-bold mb-4" id="projects"> RECENT PROJECTS</h2>
         <p
             class="text-white pb-20 font-medium text-2xl md:text-[40px] tracking-tight w-full md:w-2/3 h-auto leading-snug">
             Since diving into frontend development in 2023, I've brought a range of projects to life. Here's a snapshot
             of my accomplishments so far.</p>
-        <article class="grid md:grid-cols-2 mb-32">
+        <div class="grid md:grid-cols-2 gap-4">
+            <article class="rounded-wtf md:rounded-wtf-xl overflow-clip bg-gradient-to-br from-white/10 to-white/5 flex flex-col h-full">
             <div
-                class="h-11 bg-gradient-to-br from-white/30 to-white/20 shadow-inner-light ring-1 ring-slate-800 rounded-t-lg ">
+                class="h-11 bg-gradient-to-br from-white/30 to-white/20 shadow-inner-light ring-1 ring-slate-800 rounded-t-lg mb-32 md:mb-64">
                 <span class="p-4 flex flex-row justify-start gap-1.5 items-center"> <img
                         src="./span.project__circle.png"><img src="./span.project__circle.png"><img
                         src="./span.project__circle.png"></span>
+            </div>
                 <div
                     class="h-auto bg-gradient-to-br p-5 md:p-6 lg:p-10 from-white/10 to-white/10 shadow-inner-light ring-1 ring-slate-800 rounded-b-xl flex flex-col grow justify-between">
                     <header class="flex gap-4 items-center mb-4">
@@ -139,13 +141,72 @@
                         <li class="text-white font-bold text-sm px-2 py-1 bg-gray/10 rounded"> tailwindcss </li>
                     </ul>
                     <div class="flex flex-row flex-wrap gap-4 justify-start">
-                        <a class="text-pink bg-page py-4 px-5 font-bold text-base md:text-xl"> View demo </a>
+                        <a
+                            class="text-pink bg-page py-4 px-5 font-bold text-base md:text-xl rounded-2xl flex gap-3 items-center">
+                            <img src="./Vector.png"> View demo </a>
+                        <a
+                            class="text-pink bg-page py-4 px-5 font-bold text-base md:text-xl rounded-2xl flex gap-3 items-center">
+                            <img src="./github.png"> Source code </a>
+                    </div>
                 </div>
+            <div
+                class="h-11 bg-gradient-to-br from-white/30 to-white/20 shadow-inner-light ring-1 ring-slate-800 rounded-t-lg mb-32 md:mb-64">
+                <span class="p-4 flex flex-row justify-start gap-1.5 items-center"> <img
+                        src="./span.project__circle.png"><img src="./span.project__circle.png"><img
+                        src="./span.project__circle.png"></span>
+             </div>
+                <div
+                    class="h-auto bg-gradient-to-br p-5 md:p-6 lg:p-10 from-white/10 to-white/10 shadow-inner-light ring-1 ring-slate-800 rounded-b-xl flex flex-col grow justify-between">
+                    <header class="flex gap-4 items-center mb-4">
+                        <h3 class="text-white font-bold text-2xl"> hydrapp </h3>
+                        <p class="px-2 py-1 gap-0.5 flex items-center bg-gray/10 text-gray rounded"> <img
+                                class="w-4 h-4" src="./star-01 1.png"> stars </p>
+                    </header>
+                    <p class="text-gray mb-4 text-xl"> Simple PWA app to counting glasses of water</p>
+                    <ul class="flex gap-2 flex-wrap mb-10">
+                        <li class="text-white font-bold text-sm px-2 py-1 bg-gray/10 rounded"> html </li>
+                        <li class="text-white font-bold text-sm px-2 py-1 bg-gray/10 rounded"> tailwindcss </li>
+                    </ul>
+                    <div class="flex flex-row flex-wrap gap-4 justify-start">
+                        <a
+                            class="text-pink bg-page py-4 px-5 font-bold text-base md:text-xl rounded-2xl flex gap-3 items-center">
+                            <img src="./Vector.png"> View demo </a>
+                        <a
+                            class="text-pink bg-page py-4 px-5 font-bold text-base md:text-xl rounded-2xl flex gap-3 items-center">
+                            <img src="./github.png"> Source code </a>
+                    </div>
                 </div>
+            
+            <div
+                class="h-11 bg-gradient-to-br from-white/30 to-white/20 shadow-inner-light ring-1 ring-slate-800 rounded-t-lg">
+                <span class="p-4 flex flex-row justify-start gap-1.5 items-center"> <img
+                        src="./span.project__circle.png"><img src="./span.project__circle.png"><img
+                        src="./span.project__circle.png"></span>
             </div>
-        </article>
+                <div
+                    class="h-auto bg-gradient-to-br p-5 md:p-6 lg:p-10 from-white/10 to-white/10 shadow-inner-light ring-1 ring-slate-800 rounded-b-xl flex flex-col grow justify-between">
+                    <header class="flex gap-4 items-center mb-4">
+                        <h3 class="text-white font-bold text-2xl"> hydrapp </h3>
+                        <p class="px-2 py-1 gap-0.5 flex items-center bg-gray/10 text-gray rounded"> <img
+                                class="w-4 h-4" src="./star-01 1.png"> stars </p>
+                    </header>
+                    <p class="text-gray mb-4 text-xl"> Simple PWA app to counting glasses of water</p>
+                    <ul class="flex gap-2 flex-wrap mb-10">
+                        <li class="text-white font-bold text-sm px-2 py-1 bg-gray/10 rounded"> html </li>
+                        <li class="text-white font-bold text-sm px-2 py-1 bg-gray/10 rounded"> tailwindcss </li>
+                    </ul>
+                    <div class="flex flex-row flex-wrap gap-4 justify-start">
+                        <a
+                            class="text-pink bg-page py-4 px-5 font-bold text-base md:text-xl rounded-2xl flex gap-3 items-center">
+                            <img src="./Vector.png"> View demo </a>
+                            <a
+                            class="text-pink bg-page py-4 px-5 font-bold text-base md:text-xl rounded-2xl flex gap-3 items-center">
+                            <img src="./github.png"> Source code </a>
+                    </div>
+                </div>
+        </div>
     </section>
-    <section class="mb-16 md:mb-64">
+    <section class="mb-32 md:mb-64 mx-auto">
         <h2 class="text-gray text-xl font-bold mb-4"> AFTER HOURS</h2>
         <p
             class="text-white pb-20 font-medium text-2xl md:text-[40px] tracking-tight w-full md:w-2/3 h-auto leading-snug">
@@ -186,7 +247,7 @@
         </p>
         <a class="flex items-center justify-center flex-wrap gap-3 mb-20 font-bold text-xl rounded-xl bg-pink px-8 py-[14px] transition-color duration-500 hover:bg-hover-pink"
             href="mailto: monika.serwin88@gmail.com"><img src="./mail-01 1.png"> monika.serwin88@gmail.com </a>
-        <p class="text-gray mb-10 text-xl md:text-2xl text-center mb-6">
+        <p class="text-gray text-xl md:text-2xl text-center mb-6">
             or find me on
         </p>
         <div class="flex flex-row justify-center items-center gap-4">
