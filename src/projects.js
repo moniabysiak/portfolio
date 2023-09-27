@@ -5,7 +5,7 @@ import github from './images/github.png'
 const username = 'moniabysiak';
 const repositoriesContainer = document.querySelector('.projects--js')
 
-fetch(` https://api.github.com/users/${username}/repos`)
+fetch(`https://api.github.com/users/${username}/repos`)
     .then(response => response.json())
     .then(response => {
         for (let repository of response) {

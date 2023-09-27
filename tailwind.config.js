@@ -15,7 +15,7 @@ module.exports = {
         'page': '#020916',
         'pink': '#FF61EF',
         'gray': '#9CA3AF',
-        'hover-pink': '#fa42e7'
+        'hover-pink': '#f505dd'
       },
       width: {
         'width1': '760px'
