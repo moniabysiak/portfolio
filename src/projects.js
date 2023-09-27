@@ -18,13 +18,13 @@ fetch(` https://api.github.com/users/${username}/repos`)
             const element = `<article
                 class="rounded-lg md:rounded-xl overflow-clip bg-gradient-to-br from-white/10 to-white/5 flex flex-col h-full">
                 <div
-                    class="h-11 bg-gradient-to-br p-4 from-white/30 to-white/20 shadow-inner-light ring-1 ring-slate-800 rounded-t-lg flex gap-1.5 justify-start items-center">
+                    class="h-11 bg-gradient-to-br p-4 from-white/10 to-white/5 shadow-inner-light ring-1 ring-inset ring-page rounded-t-lg flex gap-1.5 justify-start items-center">
                     <span class="w-3 h-3 block rounded-full bg-page opacity-50""></span>
                     <span class="w-3 h-3 block rounded-full bg-page opacity-50""></span>
                     <span class="w-3 h-3 block rounded-full bg-page opacity-50""></span>
                 </div>
                 <div
-                    class="h-auto bg-gradient-to-br p-5 md:p-6 lg:p-10 from-white/10 to-white/10 shadow-inner-light ring-1 ring-slate-800 rounded-b-xl flex flex-col grow justify-between">
+                    class="h-auto p-5 md:p-6 lg:p-10ring-1 ring-page ring-inset rounded-b-xl flex flex-col grow justify-between">
                     <header class="flex gap-4 items-center mb-4">
                         <h3 class="text-white font-bold text-2xl"> ${name} </h3>
                         <p class="px-2 py-1 gap-1 flex items-center bg-gray/10 text-gray rounded"> <img
