@@ -12,7 +12,7 @@ fetch(`https://api.github.com/users/${username}/repos`)
             const { name, stargazers_count, html_url, description, topics, homepage } = repository;
             let tags = ``;
 
-            for (tag of topics) {
+            for ( let tag of topics) {
                 tags += `<li class="text-white font-bold text-sm px-2 py-1 bg-gray/10 rounded"> ${tag} </li>`
             }
             const element = `<article
@@ -50,9 +50,3 @@ fetch(`https://api.github.com/users/${username}/repos`)
     })
     .catch((e) => { console.log(e) })
 
-//
-//         const {name, html_url} = repository;
-//         const element = `<li><a href="${html_url}">${name}</a></li>`
-//         repositoriesContainer.insertAdjacentHTML('beforeend', element)
-//     }
-// })
