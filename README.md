@@ -17,4 +17,4 @@ The project contains sections:
 - npm
 - parcel
 
-![Portfolio - Monika Bysiak](https://portfolio-bysiak.netlify.app/og.png)
+![Portfolio - Monika Bysiak](https://portfolio-bysiak.netlify.app/images/og.png)
