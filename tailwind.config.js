@@ -11,6 +11,9 @@ module.exports = {
       'tight': '-.025em'
     },
     extend: {
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+      },
       colors: {
         'page': '#020916',
         'pink': '#FF61EF',
