@@ -21,7 +21,7 @@ module.exports = {
         'hover-pink': '#f505dd'
       },
       width: {
-        'width1': '760px'
+        'width1': '760px',
       },
       fontFamily: {
         "dmsans": " 'DM sans', sans-serif"
